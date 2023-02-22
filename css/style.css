@@ -9,7 +9,8 @@ CSS GENERAL
 }
 
 :root {
-    
+    --white_color: #ffffff;
+    --dark_color: #000000;
 }
 
 html {
@@ -28,6 +29,10 @@ CSS UTILITIES
     border: 2px solid white;
 }
 
+.white_color {
+    color: var(--white_color);
+}
+
 /*****************************************************
 CSS SITE "SPOTIFY WEB"
 *****************************************************/
@@ -43,6 +48,7 @@ main {
     height: calc(100% - 90px);
     overflow: hidden;
     display: flex;
+    position: relative;
     background-color: grey;
 }
 
@@ -62,5 +68,27 @@ main {
     width: calc(100% - 230px);
     height: 100%;
     overflow-y: auto;
+    margin-top: 80px;
     background-color: red;
+}
+
+#call_to_action {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: calc(100% - 230px);
+    height: 80px;
+    background-color: blueviolet;
+}
+
+.btn {
+    padding: 10px 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 20px;
+    border: 1px solid white;
+    background-color: black;
 }
