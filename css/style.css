@@ -67,6 +67,10 @@ CSS UTILITIES
     margin-bottom: 12px;
 }
 
+.m_l_20 {
+    margin-left: 29px;
+}
+
 .p_15 {
     padding: 15px;
 }
@@ -202,6 +206,20 @@ main {
     background-color: rgba(40, 40, 40, 0.4);
     border-radius: 20px;
     padding: 15px;
+}
+
+.card_artist_img {
+    width: 14vw;
+    height: 14vw;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.artist_img {
+    object-position: center;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 
 /*****************************************************
