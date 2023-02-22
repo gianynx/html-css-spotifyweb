@@ -1,0 +1,53 @@
+/*****************************************************
+CSS GENERAL
+*****************************************************/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*****************************************************
+CSS UTILITIES
+*****************************************************/
+
+.grid {
+    border: 2px solid white;
+}
+
+/*****************************************************
+SITE SECTIONS
+*****************************************************/
+
+.wrapper {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background-color: black;
+}
+
+main {
+    width: 100%;
+    height: calc(100% - 90px);
+    overflow: hidden;
+    background-color: grey;
+}
+
+#playbar {
+    width: 100%;
+    height: 90px;
+    background-color: lightgrey;
+}
