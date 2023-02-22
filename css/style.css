@@ -59,8 +59,8 @@ CSS UTILITIES
     display: flex;
 }
 
-.m_b {
-    margin-bottom: 30px;
+.m_b_12 {
+    margin-bottom: 12px;
 }
 
 .p_15 {
@@ -146,7 +146,7 @@ main {
 }
 
 .container {
-    padding: 40px 30px 60px 22px;
+    padding: 40px 30px 40px 22px;
 }
 
 .main_content nav ul {
@@ -184,4 +184,23 @@ main {
 
 .hover_h2:hover {
     text-decoration: underline;
+}
+
+.listen {
+    color: var(--nav_color);
+}
+
+/*****************************************************
+@MEDIA
+*****************************************************/
+
+@media screen and (max-width:991px) and (min-width:768px) {
+    .col {
+        width: calc(100% / 4);
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
