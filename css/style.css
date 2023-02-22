@@ -59,6 +59,10 @@ CSS UTILITIES
     display: flex;
 }
 
+.m_b {
+    margin-bottom: 30px;
+}
+
 .p_15 {
     padding: 15px;
 }
@@ -142,7 +146,7 @@ main {
 }
 
 .container {
-    padding: 60px 30px 60px 20px;
+    padding: 40px 30px 60px 22px;
 }
 
 .main_content nav ul {
@@ -172,4 +176,12 @@ main {
 .main_content nav ul li a:hover::after {
     width: 100%;
     transition: width .3s;
+}
+
+.font_h2 {
+    font-size: 25px;
+}
+
+.hover_h2:hover {
+    text-decoration: underline;
 }
