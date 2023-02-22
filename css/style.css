@@ -14,6 +14,7 @@ CSS GENERAL
     --call_to_action_color: #080b12;
     --main_content_color: #141922;
     --play_bar_color: #282828;
+    --hover_btn: #272727;
 }
 
 html {
@@ -38,6 +39,10 @@ CSS UTILITIES
 
 .uppercase {
     text-transform: uppercase;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 .flex {
@@ -97,15 +102,20 @@ main {
 }
 
 .btn {
-    padding: 10px 30px;
+    padding: 12px 45px;
     border-radius: 20px;
     text-decoration: none;
     display: inline-block;
     position: absolute;
-    right: 0;
+    right: 10px;
     top: 20px;
-    border: 1px solid white;
-    background-color: black;
+    border: 1px solid var(--white_color);
+    background-color: var(--call_to_action_color);
+}
+
+.btn:hover {
+    background-color: var(--hover_btn);
+    padding: 14px 47px;
 }
 
 .row {
