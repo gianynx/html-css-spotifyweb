@@ -220,18 +220,8 @@ main {
     padding: 15px;
 }
 
-.card_artist_img {
-    width: 14vw;
-    height: 14vw;
-    overflow: hidden;
-    border-radius: 50%;
-}
-
 .artist_img {
-    object-position: center;
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
+    border-radius: 50%;
 }
 
 /*****************************************************
@@ -264,5 +254,10 @@ main {
     .row {
         display: flex;
         flex-wrap: wrap;
+    }
+
+    .flex_artist {
+        display: flex;
+        flex-flow: row nowrap;
     }
 }
