@@ -19,6 +19,7 @@ CSS GENERAL
     --transition_color: #608b28;
     --navbar_color: #717171;
     --nav_border: #adff2f;
+    --plus_color: #a3a3a3;
 }
 
 html {
@@ -89,6 +90,14 @@ CSS UTILITIES
     margin-top: 10px;
 }
 
+.m_t_12 {
+    margin-top: 12px;
+}
+
+.m_t_20 {
+    margin-top: 20px;
+}
+
 .p_15 {
     padding: 15px;
 }
@@ -141,11 +150,11 @@ MAIN_NAV
 
 .logo, .small_logo {
     padding: 15px;
-    opacity: 0.9;
 }
 
 .logo:hover {
     background-color: var(--play_bar_color);
+    opacity: 0.9;
 }
 
 .img_logo {
@@ -169,6 +178,7 @@ MAIN_NAV
 
 .side_nav ul li span:hover {
     color: var(--white_color);
+    opacity: 0.9;
 }
 
 .side_nav .border {
@@ -182,6 +192,46 @@ MAIN_NAV
 
 .side_nav .border:hover {
     border-left: 4px solid var(--nav_border);
+}
+
+#playlist {
+    padding: 15px;
+}
+
+.plus {
+    width: 45px;
+    height: 45px;
+    background-color: var(--plus_color);
+    position: relative;
+}
+
+.fa-plus {
+    color: var(--dark_color);
+    position: absolute;
+    top: 50%;
+    left: 53%;
+    transform: translate(-50%, -53%);
+    font-size: 25px;
+}
+
+#playlist span:hover {
+    color: var(--white_color);
+    opacity: 0.9;
+}
+
+#playlist span {
+    font-size: 16px;
+}
+
+.name_playlist:hover {
+    color: var(--white_color);
+    opacity: 0.9;
+}
+
+.playlist_overflow {
+    overflow-y: auto;
+    width: 100%;
+    height: 130px;
 }
 
 .bottom_nav {
@@ -234,6 +284,7 @@ MAIN_CONTENT
 
 .main_content nav ul li a:hover {
     color: var(--white_color);
+    opacity: 0.9;
 }
 
 /*****************************************************
@@ -264,7 +315,8 @@ MAIN_CONTENT
 
 .btn:hover {
     background-color: var(--hover_btn);
-    padding: 14px 47px;
+    padding: 15px 50px;
+    opacity: 0.9;
 }
 
 /*****************************************************
@@ -394,5 +446,9 @@ CSS SECTIONS
 
     .main_nav .top_nav .side_nav img {
         margin-left: 5px;
+    }
+
+    #playlist {
+        display: none;
     }
 }
