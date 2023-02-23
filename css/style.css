@@ -17,6 +17,8 @@ CSS GENERAL
     --hover_btn: #272727;
     --nav_color: #7f8286;
     --transition_color: #608b28;
+    --navbar_color: #717171;
+    --nav_border: #adff2f;
 }
 
 html {
@@ -37,6 +39,10 @@ CSS UTILITIES
 
 .white_color {
     color: var(--white_color);
+}
+
+.nav_color {
+    color: var(--navbar_color);
 }
 
 .uppercase {
@@ -75,6 +81,10 @@ CSS UTILITIES
     margin-left: 29px;
 }
 
+.m_r_10 {
+    margin-right: 10px;
+}
+
 .m_t_10 {
     margin-top: 10px;
 }
@@ -85,6 +95,10 @@ CSS UTILITIES
 
 .p_l_33 {
     padding-left: 40px;
+}
+
+.p_t_5 {
+    padding-top: 5px;
 }
 
 .p_t_10 {
@@ -127,6 +141,7 @@ MAIN_NAV
 
 .logo, .small_logo {
     padding: 15px;
+    opacity: 0.9;
 }
 
 .logo:hover {
@@ -139,6 +154,34 @@ MAIN_NAV
 
 .small_logo {
     display: none;
+}
+
+.side_nav img {
+    width: 30px;
+    opacity: 0.9;
+}
+
+.flex_side_nav {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.side_nav ul li span:hover {
+    color: var(--white_color);
+}
+
+.side_nav .border {
+    border-left: transparent;
+    padding-left: 10px;
+}
+
+.side_nav img:hover {
+    opacity: 1;
+}
+
+.side_nav .border:hover {
+    border-left: 4px solid var(--nav_border);
 }
 
 .bottom_nav {
@@ -261,6 +304,7 @@ CSS SECTIONS
     background-color: rgba(40, 40, 40, 0.4);
     border-radius: 20px;
     padding: 15px;
+    opacity: 0.9;
 }
 
 /*****************************************************
@@ -342,5 +386,13 @@ CSS SECTIONS
 
     .img_logo {
         width: 100%;
+    }
+
+    .main_nav .top_nav .side_nav span {
+        display: none;
+    }
+
+    .main_nav .top_nav .side_nav img {
+        margin-left: 5px;
     }
 }
