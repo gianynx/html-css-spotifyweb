@@ -290,3 +290,17 @@ CSS SECTIONS
         flex-flow: row nowrap;
     }
 }
+
+@media screen and (max-width:576px) {
+    .main_nav {
+        width: 60px;
+    }
+
+    .main_content {
+        width: calc(100% - 60px);
+    }
+
+    #call_to_action {
+        width: calc(100% - 60px);
+    }
+}
