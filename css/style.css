@@ -67,12 +67,24 @@ CSS UTILITIES
     margin-bottom: 12px;
 }
 
+.m_l_15 {
+    margin-left: 15px;
+}
+
 .m_l_20 {
     margin-left: 29px;
 }
 
+.m_t_10 {
+    margin-top: 10px;
+}
+
 .p_15 {
     padding: 15px;
+}
+
+.p_l_33 {
+    padding-left: 40px;
 }
 
 .p_t_10 {
