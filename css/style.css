@@ -110,6 +110,16 @@ main {
 }
 
 /*****************************************************
+MAIN_NAV
+*****************************************************/
+
+.main_nav {
+    width: 230px;
+    min-height: 600px;
+    background-color: var(--dark_color);
+}
+
+/*****************************************************
 MAIN_CONTENT
 *****************************************************/
 
@@ -151,24 +161,8 @@ MAIN_CONTENT
     transition: width .3s;
 }
 
-/*****************************************************
-MAIN_NAV
-*****************************************************/
-
-.main_nav {
-    width: 230px;
-    min-height: 600px;
-    background-color: var(--dark_color);
-}
-
-/*****************************************************
-#PLAYBAR
-*****************************************************/
-
-#playbar {
-    width: 100%;
-    height: 90px;
-    background-color: var(--play_bar_color);
+.main_content nav ul li a:hover {
+    color: var(--white_color);
 }
 
 /*****************************************************
@@ -181,6 +175,7 @@ MAIN_NAV
     right: 0;
     width: calc(100% - 230px);
     height: 80px;
+    z-index: 1000;
     background-color: var(--call_to_action_color);
 }
 
@@ -241,11 +236,21 @@ CSS SECTIONS
 }
 
 /*****************************************************
-#ARTISTI_PIù_POPOLARI
+#ARTISTS_MOST_POPULAR
 *****************************************************/
 
 .artist_img {
     border-radius: 50%;
+}
+
+/*****************************************************
+#PLAYBAR
+*****************************************************/
+
+#playbar {
+    width: 100%;
+    height: 90px;
+    background-color: var(--play_bar_color);
 }
 
 /*****************************************************
