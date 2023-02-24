@@ -408,6 +408,33 @@ CSS SECTIONS
     width: 100%;
     height: 90px;
     background-color: var(--play_bar_color);
+    overflow: hidden;
+}
+
+.flex_playbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.playbar_left {
+    width: 230px;
+    height: 100%;
+}
+
+.playbar_center {
+    width: 40%;
+    height: 100%;
+}
+
+.playbar_right {
+    width: 230px;
+    height: 100%;
+}
+
+.#playbar .playbar_left img {
+    width: 100%;
 }
 
 /*****************************************************
@@ -448,7 +475,28 @@ CSS SECTIONS
     }
 }
 
-@media screen and (max-width:576px) {
+@media screen and (max-width:575px) {
+    .main_content nav ul {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .col {
+        width: calc(100% / 2);
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .flex_artist {
+        display: flex;
+        flex-flow: row nowrap;
+    }
+
     .main_nav {
         width: 60px;
     }
