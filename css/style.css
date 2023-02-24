@@ -226,9 +226,8 @@ MAIN_NAV
     font-size: 25px;
 }
 
-#playlist span:hover {
+#playlist .hover_playlist:hover {
     color: var(--white_color);
-    opacity: 0.9;
 }
 
 #playlist span {
@@ -431,7 +430,7 @@ CSS SECTIONS
     height: 100%;
 }
 
-.#playbar .playbar_left img {
+#playbar .playbar_left img {
     width: 20%;
 }
 
