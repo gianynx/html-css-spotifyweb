@@ -78,8 +78,8 @@ CSS UTILITIES
     margin-left: 15px;
 }
 
-.m_l_20 {
-    margin-left: 29px;
+.m_l_45 {
+    margin-left: 45px;
 }
 
 .m_r_7 {
@@ -106,8 +106,8 @@ CSS UTILITIES
     padding: 15px;
 }
 
-.p_l_33 {
-    padding-left: 40px;
+.p_l_18 {
+    padding-left: 18px;
 }
 
 .p_t_5 {
@@ -226,8 +226,9 @@ MAIN_NAV
     font-size: 25px;
 }
 
-#playlist .hover_playlist:hover {
+#playlist span:hover {
     color: var(--white_color);
+    opacity: 0.9;
 }
 
 #playlist span {
@@ -418,6 +419,7 @@ CSS SECTIONS
 .playbar_left {
     width: 230px;
     height: 100%;
+    padding: 21px 0 21px 12px;
 }
 
 .playbar_center {
@@ -431,7 +433,35 @@ CSS SECTIONS
 }
 
 #playbar .playbar_left img {
-    width: 20%;
+    width: 22%;
+}
+
+.flex_playbar_left_col {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex_playbar_left_row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#playbar .playbar_left .flex_playbar_left_col a {
+    font-size: 12px;
+}
+
+#playbar .playbar_left .flex_playbar_left_col span {
+    font-size: 11px;
+}
+
+.fa-heart:hover, .fa-folder:hover {
+    color: var(--white_color);
+    opacity: 0.9;
+}
+
+#playbar .playbar_left .flex_playbar_left_col a:hover {
+    text-decoration: underline;
 }
 
 /*****************************************************

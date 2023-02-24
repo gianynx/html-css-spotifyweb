@@ -39,12 +39,10 @@
                         <div id="playlist">
                             <h3 class="white_color uppercase p_t_10">Playlist</h3>
                             <div class="flex_side_nav">
-                                <div class="hover_playlist">
-                                    <a class="plus m_t_12 m_r_10" href="#">
-                                        <i class="fa-solid fa-plus bold"></i>
-                                    </a>
-                                    <a class="text nav_color bold" href="#"><span>Crea Playlist</span></a>
-                                </div>
+                                <a class="plus m_t_12 m_r_10" href="#">
+                                    <i class="fa-solid fa-plus bold"></i>
+                                </a>
+                                <a class="text nav_color bold" href="#"><span>Crea Playlist</span></a>
                             </div>
                             <div class="playlist_overflow">
                                 <ul>
@@ -177,8 +175,20 @@
             </div>
         </main>
         <div id="playbar" class="flex_playbar">
-            <div class="playbar_left grid">
-                <img src="./img/sinister.jpeg" alt="playbar_left_img">
+            <div class="playbar_left flex_playbar_left_row">
+                <img class="m_r_10" src="./img/sinister.jpeg" alt="playbar_left_img">
+                <div class="flex_playbar_left_col">
+                    <a class="white_color text bold" href="#">Sinister</a>
+                    <span class="flex_playbar_left nav_color bold">Brano Nome</span>
+                </div>
+                <div class="m_l_45 flex_playbar_left_row">
+                    <div>
+                        <a href="#"><i class="fa-regular fa-heart nav_color"></i></a>
+                    </div>
+                    <div>
+                        <a href="#"><i class="fa-sharp fa-regular fa-folder p_l_18 nav_color"></i></a>
+                    </div>
+                </div>
             </div>
             <div class="playbar_center grid">
                 ciao
