@@ -74,10 +74,6 @@ CSS UTILITIES
     margin-bottom: 12px;
 }
 
-.m_l_15 {
-    margin-left: 15px;
-}
-
 .m_l_45 {
     margin-left: 45px;
 }
@@ -106,8 +102,16 @@ CSS UTILITIES
     padding: 15px;
 }
 
-.p_l_18 {
-    padding-left: 18px;
+.p_l_24 {
+    padding-left: 24px;
+}
+
+.p_l_38 {
+    padding-left: 38px;
+}
+
+.p_r_38 {
+    padding-right: 38px;
 }
 
 .p_t_5 {
@@ -462,6 +466,44 @@ CSS SECTIONS
 
 #playbar .playbar_left .flex_playbar_left_col a:hover {
     text-decoration: underline;
+}
+
+.playbar_center_top {
+    text-align: center;
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.playbar_center .playbar_center_top .fa-circle-play {
+    font-size: 38px;
+}
+
+.playbar_center .playbar_center_top .fa-shuffle, .fa-backward-step, .fa-forward-step, .fa-rotate-right {
+    font-size: 22px;
+}
+
+.playbar_center .playbar_center_top .fa-shuffle:hover,
+.fa-backward-step:hover,
+.fa-forward-step:hover,
+.fa-rotate-right:hover,
+.fa-circle-play:hover {
+    color: var(--nav_color);
+    cursor: pointer;
+}
+
+.playbar_center .playbar_center_top .fa-shuffle:hover,
+.fa-backward-step:hover,
+.fa-forward-step:hover,
+.fa-rotate-right:hover {
+    font-size: 28px;
+}
+
+.playbar_center .playbar_center_top .fa-circle-play:hover {
+    font-size: 42px;
 }
 
 /*****************************************************
