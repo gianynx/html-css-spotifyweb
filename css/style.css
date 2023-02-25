@@ -445,7 +445,7 @@ CSS SECTIONS
 }
 
 .playbar_right {
-    width: 230px;
+    width: 250px;
     height: 100%;
 }
 
@@ -564,6 +564,31 @@ CSS SECTIONS
 
   .slider::-moz-range-thumb:hover {
     background-color: var(--main_content_color);
+  }
+
+  .playbar_right {
+    position: relative;
+  }
+
+  .icons_playbar_right {
+    position: absolute;
+    left: 0;
+    top: 35px;
+    font-size: 19px;
+    overflow: hidden;
+  }
+
+  .slidecontainer_right {
+    width: 50%;
+    overflow: hidden;
+  }
+
+  .slidecontainer_right {
+    position: absolute;
+    right: 2px;
+    top: 35px;
+    padding-bottom: 5px;
+    overflow: hidden;
   }
 
 /*****************************************************
