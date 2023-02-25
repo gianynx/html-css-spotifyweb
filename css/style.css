@@ -74,6 +74,14 @@ CSS UTILITIES
     margin-bottom: 12px;
 }
 
+.m_l_15 {
+    margin-left: 15px;
+}
+
+.m_l_20 {
+    margin-left: 20px;
+}
+
 .m_l_45 {
     margin-left: 45px;
 }
@@ -84,6 +92,10 @@ CSS UTILITIES
 
 .m_r_10 {
     margin-right: 10px;
+}
+
+.m_r_20 {
+    margin-right: 20px;
 }
 
 .m_t_10 {
@@ -424,6 +436,7 @@ CSS SECTIONS
     width: 230px;
     height: 100%;
     padding: 21px 0 21px 12px;
+    overflow: hidden;
 }
 
 .playbar_center {
@@ -469,7 +482,6 @@ CSS SECTIONS
 }
 
 .playbar_center_top {
-    text-align: center;
     padding: 12px;
     display: flex;
     flex-direction: row;
@@ -479,7 +491,7 @@ CSS SECTIONS
 }
 
 .playbar_center .playbar_center_top .fa-circle-play {
-    font-size: 38px;
+    font-size: 36px;
 }
 
 .playbar_center .playbar_center_top .fa-shuffle, .fa-backward-step, .fa-forward-step, .fa-rotate-right {
@@ -505,6 +517,54 @@ CSS SECTIONS
 .playbar_center .playbar_center_top .fa-circle-play:hover {
     font-size: 42px;
 }
+
+.slidecontainer {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .slider {
+    -webkit-appearance: none;
+    width: 90%;
+    height: 5px;
+    border-radius: 5px;
+    background-color: var(--nav_color);
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: var(--white_color);
+    cursor: pointer;
+    border: none;
+  }
+
+  .slider::-moz-range-thumb:hover {
+    background-color: var(--main_content_color);
+  }
 
 /*****************************************************
 @MEDIA
