@@ -627,6 +627,10 @@ CSS SECTIONS
         display: flex;
         flex-flow: row nowrap;
     }
+
+    #playbar .playbar_left .flex_playbar_left_row {
+        margin-left: 20px;
+    }
 }
 
 @media screen and (max-width:575px) {
