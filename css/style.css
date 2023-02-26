@@ -731,3 +731,17 @@ CSS SECTIONS
         display: none;
     }
 }
+
+@media screen and (max-width:419px) {
+    #playbar .playbar_right .fa-volume-high {
+        display: none;
+    }
+
+    #call_to_action .btn {
+        padding: 12px 30px;
+    }
+
+    .col {
+        width: calc(100% / 1);
+    }
+}
