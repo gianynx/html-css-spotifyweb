@@ -725,3 +725,9 @@ CSS SECTIONS
         display: none;
     }
 }
+
+@media screen and (max-width:468px) {
+    #playbar .playbar_left img {
+        display: none;
+    }
+}
