@@ -745,3 +745,9 @@ CSS SECTIONS
         width: calc(100% / 1);
     }
 }
+
+@media screen and (max-height:170px) {
+    #call_to_action {
+        display: none;
+    }
+}
