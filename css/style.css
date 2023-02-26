@@ -645,6 +645,24 @@ CSS SECTIONS
     }
 }
 
+@media screen and (max-width: 630px) {
+    #playbar .playbar_right .fa-list {
+        display: none;
+    }
+
+    #playbar .playbar_right .fa-display {
+        display: none;
+    }
+
+    #playbar .playbar_right .fa-volume-high {
+        margin-left: 35px;
+    }
+
+    #playbar .playbar_left .fa-heart, #playbar .playbar_left .fa-folder {
+        display: none;
+    }
+}
+
 @media screen and (max-width:575px) {
     .main_content nav ul {
         display: flex;
